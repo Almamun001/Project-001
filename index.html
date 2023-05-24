@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL'S Fitness</title>
+    <link rel="stylesheet" href="CSS/project101.css">
+    <link href="https://fonts.cdnfonts.com/css/baloo-bhai" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <style>
+        /* CSS Reset */
+        body {
+            color: rgb(80, 82, 191);
+            margin: 0px;
+            padding: 0px;
+            background-color: rgb(5, 5, 54);
+            /* background: url('Image/bg1.jpg'); */
+            background-size: 95%;
+            font-family: 'Baloo Bhai', sans-serif;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 14px;
+            top: 5px;
+            text-align: center;
+        }
+        .h1, h1 {
+            font-size: calc(0.700rem + 1.5vw);
+        }
+        .left img {
+            width: 93px;
+            height: 71px;
+            filter: opacity(90%);
+        }
+
+        .middle {
+            display: block;
+            width: 60%;
+            margin: 15px auto;
+            text-align: center;
+        }
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .right button img {
+            padding-bottom: 12px;
+            width: 45px;
+            height: 50px;
+        }
+
+        .btn {
+            font-size: 20px;
+            margin: 3px 9px;
+            color: skyblue;
+            padding: 3px 4px;
+        }
+
+        .btn:hover {
+            filter: opacity(50%);
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            font-size: 25px;
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: skyblue;
+            text-decoration: none;
+            text-align: center;
+            padding: 30px 14px;
+        }
+
+        .navbar li a img {
+            padding-bottom: 12px;
+            width: 45px;
+            height: 50px;
+        }
+
+        .navbar li a:hover {
+            color: rgb(6, 45, 88);
+        }
+
+        .navbar li a.active {
+            filter: opacity(50%);
+        }
+
+        .membership-plans {
+            text-align: center;
+            margin: 30px auto;
+        }
+
+        .membership-plans .plan {
+            display: inline-block;
+            width: 300px;
+            padding: 20px;
+            margin: 15px;
+            border: 1px solid skyblue;
+            border-radius: 5px;
+        }
+
+        .plan h3 {
+            color: rgb(8, 97, 195);
+        }
+
+        .plan p {
+            margin-top: 15px;
+        }
+
+        .class-schedule {
+            text-align: center;
+            margin: 30px auto;
+        }
+
+        .class-schedule table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .class-schedule th,
+        .class-schedule td {
+            padding: 10px;
+            border-bottom: 1px solid skyblue;
+        }
+
+        .trainer-profiles {
+            text-align: center;
+            margin: 30px auto;
+        }
+
+        .trainer-profiles .profile {
+            display: inline-block;
+            width: 200px;
+            padding: 20px;
+            margin: 15px;
+            border: 1px solid skyblue;
+            border-radius: 5px;
+        }
+
+        .profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .testimonials {
+            text-align: center;
+            margin: 30px auto;
+        }
+
+        .testimonials .testimonial {
+            display: inline-block;
+            width: 300px;
+            padding: 20px;
+            margin: 15px;
+            border: 1px solid skyblue;
+            border-radius: 5px;
+        }
+
+        .testimonial img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .blog {
+            text-align: center;
+            margin: 30px auto;
+        }
+
+        .blog .article {
+            display: inline-block;
+            width: 300px;
+            padding: 20px;
+            margin: 15px;
+            border: 1px solid skyblue;
+            border-radius: 5px;
+        }
+
+        .gallery {
+            text-align: center;
+            margin: 30px auto;
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="Image/gym.png" alt="">
+            <h1>AL'S Fitness</h1>
+        </div>
+        <div class="right">
+            <button class="btn"><img src="Image/call.png" alt=""></button>
+            <button class="btn"><img src="Image/email.png" alt=""></button>
+        </div>
+        <div class="clearfix"></div>
+        <div class="middle">
+            <ul class="navbar">
+                <li><a href="#" class="active"><img src="Image/home.png" alt=""></a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Rest of the content -->
+
+    <script src="path/to/your/javascript/file.js"></script>
+</body>
+<div class="membership-plans">
+    <h2>Membership Plans</h2>
+    <div class="plan">
+        <h3>Basic Plan</h3>
+        <p>Price: $29.99/month</p>
+        <p>Access to gym facilities</p>
+        <p>No access to classes</p>
+    </div>
+    <div class="plan">
+        <h3>Premium Plan</h3>
+        <p>Price: $49.99/month</p>
+        <p>Access to gym facilities</p>
+        <p>Access to all classes</p>
+    </div>
+</div>
+
+<div class="class-schedule">
+    <h2>Class Schedule</h2>
+    <table>
+        <tr>
+            <th>Class</th>
+            <th>Time</th>
+            <th>Instructor</th>
+        </tr>
+        <tr>
+            <td>Yoga</td>
+            <td>8:00 AM - 9:00 AM</td>
+            <td>Mr. Billal</td>
+        </tr>
+        <tr>
+            <td>Zumba</td>
+            <td>10:00 AM - 11:00 AM</td>
+            <td>Mr. Riyaz</td>
+        </tr>
+        <tr>
+            <td>Spin Class</td>
+            <td>5:00 PM - 6:00 PM</td>
+            <td>Mr. Billal</td>
+        </tr>
+    </table>
+</div>
+
+<div class="trainer-profiles">
+    <h2>Our Trainers</h2>
+    <div class="profile">
+        <img src="Image/trainer1.jpg" alt="">
+        <h3>Mr. Billal</h3>
+        <p>Certified Personal Trainer</p>
+    </div>
+    <div class="profile">
+        <img src="Image/trainer2.jpg" alt="">
+        <h3>Mr. Riyaz</h3>
+        <p>Group Fitness Instructor</p>
+    </div>
+</div>
+
+<div class="testimonials">
+    <h2>Client Testimonials</h2>
+    <div class="testimonial">
+        <img src="Image/person1.jpg" alt="">
+        <p>"I love the friendly and supportive environment at AL'S Fitness. The trainers are amazing!"</p>
+        <p>- Safin Ahmed</p>
+    </div>
+    <div class="testimonial">
+        <img src="Image/person2.jpg" alt="">
+        <p>"The classes at AL'S Fitness have helped me achieve my fitness goals. Highly recommended!"</p>
+        <p>- Afridi BH</p>
+    </div>
+</div>
+
+<div class="blog">
+    <h2>Fitness Tips</h2>
+    <div class="article">
+        <h3>5 Essential Workout Tips</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend aliquam tincidunt.</p>
+    </div>
+    <div class="article">
+        <h3>Nutrition Tips for a Healthy Lifestyle</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend aliquam tincidunt.</p>
+    </div>
+</div>
+
+<div class="gallery">
+    <h2>Photo Gallery</h2>
+    <img src="Image/gallery1.jpg" alt="">
+    <img src="Image/gallery2.jpg" alt="">
+    <img src="Image/gallery3.jpg" alt="">
+</div>
+
+<!-- <script src="JS/project101.js"></script> -->
+</html>
